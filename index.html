@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Tobses — Software Engineer</title>
+<meta name="description" content="Tobses (TChukwuleta) — open-source Bitcoin developer. BTCPay Server contributor. Building Bitcoin infrastructure.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #FCFBF8;
+    --ink: #1A1613;
+    --ink-soft: #4A443E;
+    --accent: #22355F;
+    --rule: #E4E0D8;
+    --measure: 640px;
+  }
+
+  * { box-sizing: border-box; }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Newsreader', Georgia, 'Times New Roman', serif;
+    font-size: 19px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  main {
+    max-width: var(--measure);
+    margin: 0 auto;
+    padding: 88px 24px 120px;
+  }
+
+  h1 {
+    font-size: clamp(2.1rem, 5vw, 2.8rem);
+    font-weight: 600;
+    letter-spacing: -0.01em;
+    margin: 0 0 4px;
+    line-height: 1.15;
+  }
+
+  .tagline {
+    font-size: 1.15rem;
+    font-style: italic;
+    color: var(--ink-soft);
+    margin: 0 0 40px;
+  }
+
+  h2 {
+    font-size: 1.05rem;
+    font-weight: 600;
+    margin: 0 0 18px;
+    color: var(--ink);
+  }
+
+  section {
+    margin-top: 52px;
+    padding-top: 52px;
+    border-top: 1px solid var(--rule);
+  }
+
+  section:first-of-type {
+    margin-top: 44px;
+    padding-top: 0;
+    border-top: none;
+  }
+
+  p {
+    margin: 0 0 18px;
+  }
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+
+  a {
+    color: var(--accent);
+    text-decoration-color: rgba(34, 53, 95, 0.35);
+    text-underline-offset: 3px;
+  }
+
+  a:hover {
+    text-decoration-color: var(--accent);
+  }
+
+  .work-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .work-list li {
+    padding: 14px 0;
+    border-top: 1px solid var(--rule);
+  }
+
+  .work-list li:first-child {
+    border-top: none;
+    padding-top: 0;
+  }
+
+  .work-list .name {
+    font-weight: 600;
+  }
+
+  .work-list .desc {
+    color: var(--ink-soft);
+    font-size: 0.96rem;
+  }
+
+  .talk-item {
+    margin-bottom: 16px;
+  }
+
+  .talk-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .talk-meta {
+    color: var(--ink-soft);
+    font-size: 0.92rem;
+  }
+
+  .links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 22px;
+    font-size: 1.02rem;
+  }
+
+  footer {
+    margin-top: 64px;
+    padding-top: 24px;
+    color: var(--ink-soft);
+    font-size: 0.88rem;
+  }
+
+  @media (prefers-reduced-motion: no-preference) {
+    main { animation: rise 0.5s ease-out; }
+    @keyframes rise {
+      from { opacity: 0; transform: translateY(6px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  }
+
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid var(--accent);
+    outline-offset: 3px;
+  }
+
+  @media (max-width: 480px) {
+    body { font-size: 17px; }
+    main { padding: 56px 20px 80px; }
+  }
+</style>
+</head>
+<body>
+<main>
+
+  <h1>Tobses</h1>
+  <p class="tagline">Building open Bitcoin infrastructure.</p>
+
+  <section>
+    <p>
+      I'm a software engineer and open-source Bitcoin developer based in Lagos, Nigeria, going by
+      <a href="https://github.com/TChukwuleta" target="_blank" rel="noopener">Tobses or TChukwuleta</a>
+      online. Most of my recent work sits inside and around
+      <a href="https://github.com/btcpayserver" target="_blank" rel="noopener">BTCPay Server</a> —
+      contributing to core, and building plugins that make it easier for merchants and developers to accept and use Bitcoin globally.
+    </p>
+    <p>
+      I'm a grant recipient with <a href="https://btrust.tech" target="_blank" rel="noopener">Btrust</a>
+    </p>
+    <p>
+      Outside of code, I care about growing the Bitcoin developer community in Lagos, Nigeria — I run <a href="https://www.bitdevslagos.org" target="_blank" rel="noopener">BitDevs Lagos</a>, 
+      a space for developers to learn, build on top of Bitcoin and its related protocols, and connect with each other.
+    </p>
+  </section>
+
+  <section>
+    <h2>Currently</h2>
+    <p>
+      Most of my time goes into BTCPay Server, contributing to core and building out plugins that make it easier for merchants and developers, 
+      to actually accept and use Bitcoin. 
+    </p>
+    <p>
+      Alongside that, I'm working on <a href="https://splitsats.com" target="_blank" rel="noopener">SplitSats</a>, a Bitcoin-native app for splitting shared expenses with friends and groups without needing a middleman to hold funds.
+    </p>
+    <p>
+      I'm also building a Bitcoin-backed micro-loan engine for microfinance institutions. It handles the parts an MFI shouldn't have to build themselves: custody of the BTC collateral, 
+      watching the loan-to-value ratio in real time, running margin calls when it drops, and producing a Bitcoin-native credit score from a borrower's on-chain and Lightning activity. 
+      The MFI still owns the loan and the relationship with the borrower; the engine just handles the mechanics underneath.
+    </p>
+  </section>
+
+  <section>
+    <h2>Selected work</h2>
+    <ul class="work-list">
+      <li>
+        <div class="name"><a href="https://github.com/btcpayserver" target="_blank" rel="noopener">BTCPay Server</a></div>
+        <div class="desc">Core contributions and plugin ecosystem work.</div>
+      </li>
+      <li>
+        <div class="name"><a href="https://splitsats.com" target="_blank" rel="noopener">SplitSats</a></div>
+        <div class="desc">A Bitcoin-native app for splitting shared expenses with friends and groups.</div>
+      </li>
+      <li>
+        <div class="name"><a href="https://github.com/TChukwuleta/Zapstar" target="_blank" rel="noopener">Zapstar</a></div>
+        <div class="desc">A browser extension for tipping GitHub repos in sats over Lightning.</div>
+      </li>
+      <li>
+        <div class="name"><a href="https://github.com/btcpayserver/btcpayserver-shopify-plugin" target="_blank" rel="noopener">Shopify plugin</a></div>
+        <div class="desc">BTCPay Server's Shopify integration for allowing shopify users accept bitcoin on their shopify web stores.</div>
+      </li>
+      <li>
+        <div class="name">SeD Protocol</div>
+        <div class="desc">A Nostr-native protocol for Bitcoin liquidity discovery across Africa. Still in development.</div>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Talks &amp; writing</h2>
+    <!-- <div class="talk-item">
+      <div class="name">BOSS Summit 2026, Jaipur</div>
+      <div class="talk-meta">Session on the SeD protocol and Nostr, hosted by Bitshala.</div>
+    </div> -->
+    <div class="talk-item">
+      <div class="name"><a href="https://hackernoon.com/htlcs-how-lightning-moves-money-through-strangers" target="_blank" rel="noopener">Hash Time-Locked Contracts</a></div>
+      <div class="talk-meta">A technical write-up on HTLCs on the Lightning Network.</div>
+    </div>
+    <div class="talk-item">
+      <div class="name">
+        <a href="https://hackernoon.com/from-lagos-to-mauritius-we-paid-people-to-play-mario-kart-with-bitcoin" target="_blank" rel="noopener">From Lagos to Mauritius: We Paid People to Play Mario Kart with Bitcoin</a>
+      </div>
+      <div class="talk-meta">On using Lightning-powered Mario Kart, paying winners in sats the instant they cross the finish line, as a way to make Bitcoin adoption tangible at BitDevs Lagos and BTrust's Dev Day.</div>
+    </div>
+    <div class="talk-item">
+      <div class="name">
+        <a href="https://blog.btrust.tech/e-cash-for-commerce-how-cashu-empowers-merchants-via-bitcoin-2/" target="_blank" rel="noopener">E-Cash for Commerce: How Cashu Empowers Merchants via Bitcoin</a>
+      </div>
+      <div class="talk-meta">On Cashu, an Ecash protocol for Bitcoin, and how merchants can accept it directly through BTCPay Server's Cashu plugin.</div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Get in touch</h2>
+    <p>Feel free to reach out on any of these:</p>
+    <div class="links">
+      <a href="https://github.com/TChukwuleta" target="_blank" rel="noopener">GitHub</a>
+      <a href="mailto:tobechi@tobses.com">Email</a>
+      <a href="https://x.com/TChileta" target="_blank" rel="noopener">X / Twitter</a>
+    </div>
+  </section>
+
+  <footer>
+    tobses.com
+  </footer>
+
+</main>
+</body>
+</html>
